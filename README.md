@@ -6,3 +6,8 @@ Exmaple
 ```
 DISTRO_FEATURES_append = " bluez5 bluetooth wifi systemd" # in local.conf
 bitbake rpi-basic-image
+
+# Check if wifi driver is enabled 
+```
+ip link show wlan0
+```
