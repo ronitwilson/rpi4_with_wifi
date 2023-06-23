@@ -7,3 +7,10 @@ Exmaple
 DISTRO_FEATURES_append = " bluez5 bluetooth wifi systemd" # in local.conf
 bitbake rpi-basic-image
 
+# Connecting wifi
+
+```
+connmanctl enable wifi
+connmanctl scan wifi
+conmanctl services
+```
