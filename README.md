@@ -5,6 +5,8 @@
 Exmaple 
 ```
 DISTRO_FEATURES_append = " bluez5 bluetooth wifi systemd" # in local.conf
+VIRTUAL-RUNTIME_init_manager = "systemd"
+
 bitbake rpi-basic-image
 
 # Connecting wifi
